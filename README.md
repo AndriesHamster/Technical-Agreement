@@ -14,5 +14,5 @@ Dutch Technical Agreement for connecting IHE XCA Communities
 
 ## Appendices
 
-- [Appendix A: Connection document (template)](Chapters/Appendix:%20Connection%20document%20(template))
-- [Appendix B: WADO-WS Specifications (WSDL)](Chapters/Appendix:%20WADO-WS%20Specifications%20(WSDL))
+- [Appendix A: Connection document (template)](Appendices/Appendix:%20Connection%20document%20(template))
+- [Appendix B: WADO-WS Specifications (WSDL)](Appendices/Appendix:%20WADO-WS%20Specifications%20(WSDL))
