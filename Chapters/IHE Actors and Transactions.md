@@ -1,3 +1,5 @@
+# IHE Actors and Transactions
+
 This TA applies on the boundary interfaces of home communities. Only transaction between the boundary actors (XCA(-i) gateways) will be addressed. In all cases the standards as described by IHE are leading. 
 
 When there is room for interpretation of these standards in the context of applying them in the Netherlands, this TA will address resolutions vendors supporting this TA will commit to. 
