@@ -1,10 +1,3 @@
----
-title: Non-technical responsibilities
-slug: jmu9-non-technical-responsibilities
-createdAt: 2024-07-21T15:17:11.291Z
-updatedAt: 2024-07-21T15:36:09.655Z
----
-
 ## HIE Administrator responisbilities
 
 The following responsibilities can impact the transactions between affinity domains. These responsibilities are not necessarily that of the HIE vendor but need to be aligned on clearly within the affinity domain that the HIE vendor represents. HIE vendors integrating within the Dutch National HIE Network can assume that these responsibilities are taken care of by the HIE Administrator that manages the affinity domain it is connecting to.
