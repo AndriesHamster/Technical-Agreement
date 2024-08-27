@@ -1,9 +1,4 @@
----
-title: Appendix: Connection document (template)
-slug: SaG6-appendix
-createdAt: 2024-07-21T15:56:46.225Z
-updatedAt: 2024-07-21T16:00:23.254Z
----
+# Appendix A: Connection Document (Template)
 
 ## Environments and endpoints
 
