@@ -1,10 +1,3 @@
----
-title: Technical responsibilities
-slug: iAZy-technical-responsibilities
-createdAt: 2024-07-21T15:12:06.085Z
-updatedAt: 2024-07-21T15:32:01.117Z
----
-
 ## Network security
 
 Connecting HIE vendors must assure the following regarding network security.
