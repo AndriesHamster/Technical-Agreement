@@ -1,3 +1,5 @@
+# Technical Responsibilities
+
 ## Network security
 
 Connecting HIE vendors must assure the following regarding network security.
