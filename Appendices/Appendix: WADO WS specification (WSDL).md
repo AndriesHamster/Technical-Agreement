@@ -1,9 +1,4 @@
----
-title: Appendix: WADO WS specification (WSDL)
-slug: 1yy4-appendix
-createdAt: 2024-07-21T16:00:34.439Z
-updatedAt: 2024-07-21T16:04:52.889Z
----
+# Appendix B: WADO-WS Specifications (WSDL)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
