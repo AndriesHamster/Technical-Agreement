@@ -1,10 +1,3 @@
----
-title: Introduction
-slug: egAR-introduction
-createdAt: 2024-07-21T15:06:55.414Z
-updatedAt: 2024-07-21T15:56:27.203Z
----
-
 In an information exchange use-case patient (medical) information can be considered to have a “medical home”. This medical home is often represented by a clinical information or HIE system that allows for exchange of the information it is responsible for. One or more “medical homes” can form a “home community”. A home community is often managed by an HIE organization (Dutch: RSO) or by a healthcare organization itself. When one or more “home communities” need to share information, they need to do so according to an agreed upon “cross-community governance” (Dutch: afsprakenstelsel) that defines the “rules of engagement”.
 
 ![](https://lh7-eu.googleusercontent.com/docsz/AD_4nXci6swdAYDFdQ5YGwwg0nNUlv62x8yd0_64x8Xa9wxgN5H5OEh0ryQ3axNaJbAFhfSR9fABshWLP7o-zqMB0SVx5Ud-5cxKf3zQlJdHlCXTU0oYk0GXfwOeR-RWtyA4scxQk7wx58C26vG4LC9ZnCdzlx4?key=tvhHE0qAQDmv6Dp7rQX5vw)
