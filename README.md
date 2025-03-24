@@ -1,7 +1,7 @@
 # Technical-Agreement
 Dutch Technical Agreement for connecting IHE XCA Communities.
 
-This repository has been created based on the (original) [Technical Agreement](Nationaal%20Technische%20Afspraak%20-%20version%201.1.pdf) created under supervision of the Taskforce Samen Vooruit base on input from [Founda Health](www.foundahealth.com)(formerly Philips/Forcare), Enovation, Nexus Nederland, Epic, Agfa and Chipsoft.
+This repository has been created based on the (original) [Technical Agreement](Nationaal%20Technische%20Afspraak%20-%20version%201.1.pdf) created under supervision of the Taskforce Samen Vooruit base on input from [Founda Health](www.foundahealth.com)(formerly Philips/Forcare), Enovation, Nexus Nederland, Epic, Agfa and Chipsoft. Since the TSV website is no longer availalbe this respository has been created to maintain the source files. 
 
 # Table of Content
 
