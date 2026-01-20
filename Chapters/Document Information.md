@@ -6,6 +6,7 @@ This document is the result of joint effort of various people at Philips, Founda
 
 | **Rev.** | **Release Date** | **Remarks**                            |
 | -------- | ---------------- | -------------------------------------- |
+| 1.3      | Jan. 5th, 2026   | Update with outcome DUO PoC            |
 | 1.2      | July. 19th, 2024 | Updated section Subject-Role attribute |
 | 1.1      | Feb. 16, 2021    | Public comments processed              |
 | 1.0      | Nov. 23, 2020    | Final version for public review        |
