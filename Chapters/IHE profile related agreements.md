@@ -80,7 +80,7 @@ The Home Community ID attribute shall be the OID of the home community as provid
 
 **Subject-Role attribute**
 
-For a user one or more roles can be provided in the subject role attribute. As described in *Vol. 2b - Section 3.40.4.2 - Additional section to add to all ATNA audit messages when the transaction includes XUA Assertion*. The iDP is responsible for Subject-Role claim.
+For a user one or more roles can be provided in the subject role attribute. As described in *Vol. 2b - Section 3.40.4.2 - Additional section to add to all ATNA audit messages when the transaction includes XUA Assertion*. The IdP is responsible for Subject-Role claim.
 
 The HIE system shall be able to interpret or translate the roles coming from the Initiating Gateway. If no national standards are defined or implemented regarding the Subject-Role claim, a variation of roles can be expected.
 
@@ -91,7 +91,7 @@ To support the use case of exchanging medical information between one or more ho
 | 01.000   | RoleCodeNLUZIRoleCodePersonen | NL: Arts, US: Medical Doctor                                           |
 | 56542007 | Snomed CT                     | NL: Beheerder van medische dossiers,  US: Medical record administrator |
 
-If a use case requires additional Subject-Role claims, the use and interpretation of these claims lie outside of the scope of this technical agreement.
+>If a use case requires additional Subject-Role claims, the use and interpretation of these claims lie outside of the scope of this technical agreement.
 
 **Patient Identifier Attribute**
 
@@ -115,9 +115,20 @@ It is the responsibility of the initiating and responding XCA gateways to map th
 
 If a use case requires additional purpose of use codes, the use and interpretation of these codes lie outside of the scope of this technical agreement.
 
+>In case a Responding Gatway interacts with with other systems in order to provide a response to an Initiating gateway it may be required to translate the Purpose of Use codes to other code systems. 
+
 ## ITI-38 transaction agreements
 
 The ITI-38 transaction shall contain an IHE-XUA token.
+
+The ITI-38 transaction shall support the optional $targetCommunityIdList parameter defined in IHE CP-1301, allowing an Initiating Gateway actor to request a response from one or more "home communities" that are served by the Responding Gateway actor. The follow behavior is expected
+
+| **$targetCommunityIdList** | **Expected behavior**                                           |
+| -------------------------- | --------------------------------------------------------------- |
+| Not included               | Backward compatibility use-case. The responding gateway is expected to return the same response as if no $targetCommunityIdlist was included in the request. |
+| Empty                      | The Responding gateway respond with an error. |
+| Includes homeCommunityIds that are not known to the Responding Gateway | Responding returns a partial success response indicating which homeCommunityIds were not recognized. The Initiating gateway should not treat this as an error. |
+| Includes homeCommunityIds that are known to the Responding Gateway | Responding returns a success response. |
 
 ## ITI-39 transactions agreements
 
